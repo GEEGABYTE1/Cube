@@ -11,6 +11,7 @@ class Account:
         self.value = 5
 
         while True:
+            counter += 1
             prompt = input()
 
             if prompt == "a":
@@ -20,7 +21,8 @@ class Account:
                 print("You currently have ${amount}".format(amount=self.amount))
             else:
                 print("You have not entered a correct value")
-            if counter % 7200 == 0:
+                counter += 1
+            if counter % 7200 == 0:                                                 #updates approx every 2 hours if ran constantly.
                 if random_init % 10 == 0:
                     self.value *= 6
                     counter += 1
@@ -44,7 +46,8 @@ class Account:
                     counter += 1
             else:
                 pass
-            counter += 1
+            
+            
 
 
 
