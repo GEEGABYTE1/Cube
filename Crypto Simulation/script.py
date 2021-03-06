@@ -193,8 +193,9 @@ class Introduction:
                                             
                                             block_transaction = {"sender": "You", "receiver": user_transaction, "amount": str(money)}
                                             #self.local_blockchain.add_block(block_transaction)
-                                            time.sleep(2)
+                                            time.sleep(0.5)
                                             print("Here is your recent transaction: ")
+                                            time.sleep(1)
                                             print(block_transaction)
                                             self.total_trans.append(block_transaction)
                                             #print(self.local_blockchain.print_blocks())
@@ -228,7 +229,9 @@ class Introduction:
                                                 block_transaction = {"sender": "user" + str(random_user), "receiver": "you", "amount": random_amount}
                                                 #self.local_blockchain.add_block(block_transaction)
                                                 print("Looks like, a user sent you money!")
+                                                time.sleep(0.5)
                                                 print("Here is the recent transaction")
+                                                time.sleep(1)
                                                 print(block_transaction)
                                                 self.total_trans.append(block_transaction)
                                                 #print(self.local_blockchain.print_blocks())
