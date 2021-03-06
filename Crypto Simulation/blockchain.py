@@ -87,7 +87,7 @@ class Blockchain:
                     final_response = None
                     return 
                 else:
-                    print('Seems liek that is an incorrect answer')      
+                    print('Seems like that is an incorrect answer')      
         else:
             final_response = 'You have exited '
             return 'You have exited '
