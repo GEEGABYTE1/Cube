@@ -124,7 +124,7 @@ class Introduction:
                 print("Controls: ")
                 time.sleep(1)
                 print("Type /amount to see the money you have")
-                print("Type \"a\" to start gaining money. The more you click, the more you earn ;)")
+                print("Type \"a\" to start gaining money. The more you type, the more you earn ;)")
                 print("Type /view_value to see the rate of money increasing per click")
                 print("Type /exit to exit the process")
                 time.sleep(1)
@@ -148,7 +148,7 @@ class Introduction:
                 chance = random.randint(1, 2)
                 while trading:
                     print("Welcome to the transactions area where you can sell and trade your money")
-                    print("If you can get up to 200 transactions, you will be able to get yourself a block, in which you can start mining!")
+                    print("If you can get up to 15 transactions, you will be able to get yourself a block, in which you can start mining!")
                     time.sleep(1)
                     clear = lambda: system('clear')
                     clear()
