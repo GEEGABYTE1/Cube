@@ -78,7 +78,7 @@ class Blockchain:
             else:
                 print("Oops, hard luck! You have completed the computational problem but your block does not seem to be mathcing with the others")
                 question = input("Would you like to keep trying or would you like to reset the blockchain? *Caution* Your current data will be lost if you reset the blockchain")
-                if question == "yes" or question == " yes":
+                if question == "yes" or question == "yes ":
                     self.chain = []
                     block.nonce = 0
                     moves = 0
