@@ -18,7 +18,7 @@ This simulator gives the user a general overview of what it is like to trade cry
 
 ## Transaction Function 
 - /check_transactions: Allows the user to collect their cube (block) when they have at least 15 transactions under their name.
-- /exit: Exits the current functon the user is in, and returns them to the home page.
+- /exit: Exits the current funciton the user is in, and returns them to the home page.
 
 ## Base functions 
 - /mine: Initializes the mining feature allowing the user to mine their cube (block).
