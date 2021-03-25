@@ -7,24 +7,24 @@ This simulator gives the user a general overview of what it is like to trade cry
 
 # Controls 
 ## Bucks Function
-- "a": Allows the user to mine for cash. 
-- /view: Shows the current amount of money the user has.
-- /exit: Exits the current function the user is in, and returns the user to the home page.
+- `a`: Allows the user to mine for cash. 
+- `/view`: Shows the current amount of money the user has.
+- `/exit`: Exits the current function the user is in, and returns the user to the home page.
 
 ## Mine Function 
 
-- "l": Allows you to attempt the hash problem.
-- /exit: Exits the current function the user is in, and returns the user to the home page.
+- `l`: Allows you to attempt the hash problem.
+- `/exit`: Exits the current function the user is in, and returns the user to the home page.
 
 ## Transaction Function 
-- /check_transactions: Allows the user to collect their cube (block) when they have at least 15 transactions under their name.
-- /exit: Exits the current funciton the user is in, and returns them to the home page.
+- `/check_transactions`: Allows the user to collect their cube (block) when they have at least 15 transactions under their name.
+- `/exit`: Exits the current funciton the user is in, and returns them to the home page.
 
 ## Base functions 
-- /mine: Initializes the mining feature allowing the user to mine their cube (block).
-- /bucks: Initializes the bucks function allowing the user to make quick money by typing "a". 
-- /transactions: Allows the user to make a transaction with simulated users. 
-- /self_transactions: Shows the user's current transactions
+- `/mine`: Initializes the mining feature allowing the user to mine their cube (block).
+- `/bucks`: Initializes the bucks function allowing the user to make quick money by typing "a". 
+- `/transactions`: Allows the user to make a transaction with simulated users. 
+- `/self_transactions`: Shows the user's current transactions
 
 
 # Miscellaneous 
