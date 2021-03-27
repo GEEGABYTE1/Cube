@@ -1,3 +1,4 @@
+![A simulate CryptoCurrency](https://user-images.githubusercontent.com/68164588/112733666-b219ff00-8f17-11eb-99e3-16b6c4b43bd6.png)
 # Cube | CryptoCurrency Simulation Program <img height="35" width="35" src="https://simpleicons.org/icons/elixir.svg" /> 
 Ever wanted to know what it feels like to trade with bitcoins? 🧐
 
